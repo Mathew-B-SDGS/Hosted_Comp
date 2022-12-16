@@ -5,8 +5,13 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
   }
-  
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }  
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
       monospace;
@@ -22,7 +27,7 @@ body {
   }
   
   .App-header {
-    background-color: #282c34;
+    background-color: #335035;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -31,6 +36,7 @@ body {
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    width: 90%;
     
   }
   
@@ -43,12 +49,22 @@ body {
   }
   
   .small {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
   .table {
     display: table;
     width: 70%;
     border: 5px solid;
-    fill: azure; 
-
   }
+.row th,td {
+        
+        display: auto;
+        width: 100%;
+        border: 1px solid;
+        padding: 5px;
+        text-align: center;
+        font-size: 1rem;
+        border-collapse: collapse;
+    
+
+    }

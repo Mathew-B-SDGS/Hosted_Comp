@@ -7,31 +7,29 @@
         <title>MB Reflection on Development</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main.css">
-<!--
+        <!--<link rel="stylesheet" href="main.css">-->
         <style>
-           body {background-color: #85d2ff;}
            table, th, td {
-                border: 1px solid white;
+                border: 1px solid black;
                 border-collapse: collapse;}
-            th, td {background-color: #2989c9;}
-            div { padding: 50px;}
+            div { padding: 20px;
+                padding-right: 10%;}
         </style> 
---> 
     </head>
     <body class="App-header">
         <H1 ><u> Software Development Cycles</u></H1>
         <hr>
-        
-        <h3> <strong><u>Contents</u></strong></H3>
-          <ul>
-            <li> <a href="#Intro">Intro</a></li>
-            <li> <a href="#Models">Models</a></li>
-            <li> <a href="#Reflections">Reflections</a></li>
-          </ul>
+        <div id="heading">
+            <h3> <strong><u>Contents</u></strong></H3>
+            <ul>
+                <li> <a href="#Intro">Intro</a></li>
+                <li> <a href="#Models">Models</a></li>
+                <li> <a href="#Reflections">Reflections</a></li>
+            </ul>
+        </div>
     <div id="Intro" class="small">
         <h3><u>Intro</u></h3>
-        <p> To practice with using Git and familiarize myself with the website GitHub i have written my reflection in a simple HTML file.
+        <p> To practice with using Git and familiarize myself with the website GitHub i have written my reflection in a simple HTML+CSS file.
              Which I have uploaded to GitHub and used Git to manage the version control.
             This enabled me to create this resource, where i can record any Git commands i've learnt, in addition to reflecting on the importance of version control.
         </p>
@@ -39,10 +37,10 @@
         learning about some of the essential skills required to code in a highly dynamic space.
         I will proceed to briefly describe some of the content discussed below, 
         in addition to describing the importance and application of development cycles
-        and version control within the NHS. I will also seek to reflect on the ways i will
-        apply these during any software Development i partake in.</p> 
+        and version control within the NHS. I will also seek to reflect on the ways I will
+        apply these during any software development I partake in.</p> 
     </div>
-    <div id="Models" class="small">
+    <div id="Models">
         <h3><u>Models</u></h3>
         <p>The 2 models i will be comparing are listed below</p>
         <ul>
@@ -51,7 +49,7 @@
         </ul>
         <p> the AGILE model is a development cycle that is designed to be integrated into large multi-disciplinary teams.
             Software development is broken into short goal driven sprints. A sprint can last from 1-4 weeks, and contains planing, development, and testing.
-             the model promotes the use of constant communication. Meetings called 'SCRUMS' are a space for talking with stakeholders. 
+             The model promotes the use of constant communication. Meetings called 'SCRUMS' are a space for talking with stakeholders. 
         
         <p> <em> 👍 Advantages of  AGILE </em> </p> 
          <ul>
@@ -63,7 +61,7 @@
             <li>Difficult to manage as product creep may occur.</li>
             <li>Not always suitable for smaller teams or individuals working alone.</li>
         </ul> 
-        <p> The Waterfall model is a linear approach to software development, a think first code second, where requirements gathering and planning are completed beforehand.
+        <p> The Waterfall model is a linear approach to software development, a "think first code second", where requirements gathering and planning are completed beforehand.
             Each stage results in a fully fulfilled product, realizing the established goals and targets before the next cycle can begin.</p>
         <p> <em> 👎 Disadvantages of Waterfall </em> </p>
         <ul>
@@ -75,23 +73,26 @@
             <li> Simply structured around achieving the final resulting product </li>
             <li> Perfect model for smaller teams and projects </li>
         </ul>
-        <p> If I was to work with one model i would choose to focus on AGILE, as I Belive it to be the better method ###.</p>
-        <p> i belive the ### method is better</p>
+        <p> If I was to work with one model i would choose to focus on AGILE.
+             I believe it to be the better method because it has a greater focus
+              on being adaptable, achieving the needs of stakeholders, and facilitating communication. 
+              However, one must be aware of the potential problems such as feature creep, that can arise when using Waterfall</p>
     </div>
-    <div id="AGILE?" ></div>
-        <table style="background-color: blueviolet;color: darkblue;text-align: center; vertical-align: middle;" >
-            <th><h3><em> How Does AGILE Apply to the NHS?</em></h3></th>
-            <tr> <td><p> within a healthcare setting software can have a direct affect on the lives of patients, and as such it is important that the software is of a high quality. 
-                stringent validation, verification, and testing is required to ensure that the software is safe and effective. 
-                One can question wether it is possible to be truly agile in such a setting?
+    <div id="AGILE?" >
+        <table >
+            <th><h3><em>  Does AGILE Apply to the NHS?</em></h3></th>
+            <tr> <td><p> Within a healthcare setting software can have a direct affect on the lives of patients, and as such it is important that the software is of a high quality. 
+                Stringent validation, verification, and testing is required to ensure that the software is safe and effective. 
+                One can question wether it is possible to be truly agile in such a setting? Especially when the software is being developed by a small team or lone working developers.
+                AGILE may be applied to the NHS, as it is a highly dynamic environment. The best patient care requires multi-disciplinary cross department coordination, 
+                and as such it is important to have a working model that promotes constant communication.
                  </p></td></dt></tr>
         </Table>
-        <br>
+    </div>   
         <hr>
-        <br>
     </div id="git" >
             <H3><strong>The Importance of GIT?</strong><br><em>And Why I Used GitHub Whilst Writing this.. </em></H3>
-            <p> some of the Git commands I have used during the process are Git;
+            <p> Some of the Git commands I have used during the process are Git;
                 <table class="row">
                     <th>Command</th>
                     <th>Explanation</th>
@@ -115,7 +116,7 @@
                     </tr><tr>
                         <td>Git Status</td> <td>a really useful way of seeing whats happening, flags issues and a general overview.</td>
                     </tr><tr>
-                        <td>Git Fetch</td> <td>still not quite sure what this does but learning it, i think its simmiliar to pull</td>
+                        <td>Git Fetch</td> <td>still not quite sure what this does but learning it, i think its similar to pull</td>
                     </tr>
                     <tr>
                         <td>Git Push </td> <td>sends changes to a remote repository</td>
@@ -136,16 +137,32 @@
     </div>
     <div id="Requriments gathering ">       
             <H3><em>Why do We need requirements gathering?</em></H3>   
-            requirements gathering is the process of identifying the needs of the user, and then translating them into a set of requirements. T
-            here are many different ways of doing this, and it is important to do it correctly, as it is crucial to the success of the project. 
+            requirements gathering is the process of identifying the needs of the user, and then translating them into a set of specifications. 
+            There are many different ways of doing this, and it is important to do it correctly, as it is crucial to the success of the project. 
+            These goals can then be used to create a development plan, and a set of requirements for the finished product. 
+            <p> <em> 👍Advantages of requirements gathering </em> </p>
+            <ul>
+                <li>Ensures value as time and energy is spent addressing the needs of stakeholders</li>
+                <li>Prompts the discussion of functional and non functional requirements, ensuring a development plan that will be objective and goal oriented</li>
+            </ul>
+            <p> <em> 👎  Difficulties of requirements gathering </em> </p>
+            <ul>
+                <li>People don't always know what they want and it can be difficult to identify the needs of the user</li>
+                <li>Stakeholders may lack an understanding of the process and how it can be solved</li>
+                <li>The initial Requirements can change and "creep" as the product is developed, resulting in greater workload</li>
+            </ul>
     </div>
+    <div id="Requirements gathering">
         <h2 id="Reflections">Final Reflections</h2>
-            <p>In reflection a key part of working within a development environment is the use of tool such as version control, Development cycles, and requirements gathering.
+            <p>In reflection a key part of working within a development environment is the use of tool such as version control, development cycles, and requirements gathering.
                 Therefor I am glad i have taken the time to learn these skills, and i believe they will be useful in the future.
-                I have found that the most difficult part of this process was the use of GIT, as i have never used it before, and it is a very powerful tool.
-                though, i am know a lot more confident in using it, and i am looking forward to applying my knowledge it in the future to gain more experience.
-                I have also found that the use of a development cycle is very useful, as it allows me to keep track of my progress, and it also allows me to see what i have done, and what i need to do.
-                this project got a bit out of hand and is a clear example of the importance of requirements gathering, as i started off with a simple website, but then i decided to add a lot more to it.
+                I have found that the most difficult part of this process was the use of GIT, as I have never used it before, and it is a very powerful tool.
+                After this experience i am a lot more confident and comfortable in using it, and I look forward to applying my knowledge to future projects to gain more experience.
+                I have also found learning about the use of a development cycle is very useful, for my journey in learning to program. 
+                i will implement AGILE in any large projects, as it will allow me to track progress, and to see what i have done, and what i need to do.
+                this project got a bit out of hand and is a clear example of the importance of requirements gathering, 
+                I started off with  the idea of having a simple website, but then I came to understand how much work and time would be required to implement the features i wanted. 
+                Still, the experience was worthwhile as I have learnt a lot from this experience, such as im not a fan of CSS and need to learn more about it. 
             </p>
             <hr><hr>
     </div>        

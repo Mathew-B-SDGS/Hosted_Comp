@@ -1,70 +1,14 @@
 body {
-    margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-      sans-serif;
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
-  }
-a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-  }  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-      monospace;
-  }
-  
-  .App {
-    text-align: center;
-  }
-  
-  .App-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
-  .App-header {
-    background-color: #335035;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    width: 90%;
+    background-color: lightgray;
     
-  }
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  .heart {
-    color: #ff0000;
-  }
-  
-  .small {
-    font-size: 1rem;
-  }
-  .table {
-    display: table;
-    width: 70%;
-    border: 5px solid;
-  }
-.row th,td {
-        
-        display: auto;
-        width: 100%;
-        border: 1px solid;
-        padding: 5px;
-        text-align: center;
-        font-size: 1rem;
-        border-collapse: collapse;
-    
-
+    }
+  .p {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
     }

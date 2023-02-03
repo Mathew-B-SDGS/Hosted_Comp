@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<!--This Document was an interesting way for me to Practice HTML in a way that would allow me to use version control and present text in an easily readable format-->
+<html lang="en">
+    <!--This Document was an interesting way for me to Practice HTML in a way that would allow me to use version control and present text in an easily readable format-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -7,16 +8,18 @@
         <title>MB Reflection on Development</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main.css">
+        <!-- <link rel="stylesheet" href="main.css">
         <style>
            table, th, td {
                 border: 1px solid black;
                 border-collapse: collapse;}
             div { padding: 20px;
                 padding-right: 10%;}
-        </style> 
+        </style>  -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>
-    <body class="App-header">
+    <body class="container">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
         <H1 ><u> Software Development Cycles</u></H1>
         <hr>
         <div id="heading">
@@ -27,7 +30,7 @@
                 <li> <a href="#Reflections">Reflections</a></li>
             </ul>
         </div>
-    <div id="Intro" class="small">
+    <div id="Intro" class="card-header">
         <h3><u>Intro</u></h3>
         <p> To practice with using Git and familiarize myself with the website GitHub i have written my reflection in a simple HTML+CSS file.
              Which I have uploaded to GitHub and used Git to manage the version control.
@@ -94,7 +97,7 @@
     </div id="git" >
             <H3><strong>The Importance of GIT?</strong><br><em>And Why I Used GitHub Whilst Writing this.. </em></H3>
             <p> Some of the Git commands I have used during the process are Git;
-                <table class="row">
+                <table class="table bg-light-subtle">
                     <th>Command</th>
                     <th>Explanation</th>
                     <tr>
@@ -110,10 +113,10 @@
                         <td>Git Diff</td> <td>See the difference between the working and staging directory</td>
                     </tr>
                     <tr>
-                        <td>|Git Log </td> <td>See a history of previous commits and comments.</td>
+                        <td>Git Log </td> <td>See a history of previous commits and comments.</td>
                     </tr>
                     <tr>
-                        <td>Git Innit</td> <td>starts git working locally, this is the first thing one should do</td>
+                        <td>Git Init</td> <td>starts git working locally, this is the first thing one should do</td>
                     </tr><tr>
                         <td>Git Status</td> <td>a really useful way of seeing whats happening, flags issues and a general overview.</td>
                     </tr><tr>

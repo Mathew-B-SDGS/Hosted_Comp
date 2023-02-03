@@ -22,12 +22,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
         <H1 ><u> Software Development Cycles</u></H1>
         <hr>
-        <div id="heading">
+        <div id="heading" class="container">
             <h3> <strong><u>Contents</u></strong></H3>
-            <ul>
-                <li> <a href="#Intro">Intro</a></li>
-                <li> <a href="#Models">Models</a></li>
-                <li> <a href="#Reflections">Reflections</a></li>
+            <ul class="list-group">
+                <li> <a href="#Intro"class="list-group-item list-group-item-action ">Intro</a></li>
+                <li> <a href="#Models" class="list-group-item list-group-item-action ">Models</a></li>
+                <li> <a href="#AGILE?" class="list-group-item list-group-item-action ">NHS</a></li>
+                <li> <a href="#git" class="list-group-item list-group-item-action ">GIT commands</a></li>
+                <li> <a href="#Reflections" class="list-group-item list-group-item-action ">Reflections</a></li>
+                <li> <a href="#git" class="list-group-item list-group-item-action ">Git</a></li>
+                
             </ul>
         </div>
     <div id="Intro" class="card-header">
@@ -43,14 +47,18 @@
         and version control within the NHS. I will also seek to reflect on the ways I will
         apply these during any software development I partake in.</p> 
     </div>
-    <div id="Models">
+<div class="container">
+    <div id="Models" class="row">
         <h3><u>Models</u></h3>
         <p>The 2 models I will be comparing are listed below</p>
         <ul>
             <li><a href="https://en.wikipedia.org/wiki/Agile_software_development" target="_blank"><strong>AGILE</strong></a></li>
             <li><a href="https://en.wikipedia.org/wiki/Waterfall_model" target="_blank"><strong>Waterfall</strong></a></li>
         </ul>
-        <p> the AGILE model is a development cycle that is designed to be integrated into large multi-disciplinary teams.
+        <hr>
+    <div id="AGILE" class="container-fluid col-lg-6">
+        <h6>AGILE</h6>
+        <p> the <b>AGILE</b> model is a development cycle that is designed to be integrated into large multi-disciplinary teams.
             Software development is broken into short goal driven sprints. A sprint can last from 1-4 weeks, and contains planing, development, and testing.
              The model promotes the use of constant communication. Meetings called 'SCRUMS' are a space for talking with stakeholders. 
         
@@ -64,8 +72,10 @@
             <li>Difficult to manage as product creep may occur.</li>
             <li>Not always suitable for smaller teams or individuals working alone.</li>
         </ul> 
-        <hr>
-        <p> The Waterfall model is a linear approach to software development, a "think first code second", where requirements gathering and planning are completed beforehand.
+    </div>
+    <div id="Waterfall" class="container-fluid col-lg-6">
+        <h6>Waterfall</h6>
+        <p> The <b>Waterfall</b> model is a linear approach to software development, a "think first code second", where requirements gathering and planning are completed beforehand.
             Each stage results in a fully fulfilled product, realizing the established goals and targets before the next cycle can begin.</p>
         <p> <em> 👎 Disadvantages of Waterfall </em> </p>
         <ul>
@@ -82,6 +92,9 @@
               on being adaptable, achieving the needs of stakeholders, and facilitating communication. 
               However, one must be aware of the potential problems such as feature creep, that can arise when using Waterfall</p>
     </div>
+    </div>
+</div>
+    <hr>
     <div id="AGILE?" >
         <table >
             <th><h3><em>  Does AGILE Apply to the NHS?</em></h3></th>
@@ -94,10 +107,10 @@
         </Table>
     </div>   
         <hr>
-    </div id="git" >
+    <div id="git">
             <H3><strong>The Importance of GIT?</strong><br><em>And Why I Used GitHub Whilst Writing this.. </em></H3>
             <p> Some of the Git commands I have used during the process are Git;
-                <table class="table bg-light-subtle">
+                <table class="table bg-light-subtle table-hover">
                     <th>Command</th>
                     <th>Explanation</th>
                     <tr>
@@ -139,7 +152,7 @@
                     </tr>
                 </table>
     </div>
-    <div id="Requriments gathering ">       
+        <div id="Requriments-gathering" class="text-success-emphasis">       
             <H3><em>Why do We need requirements gathering?</em></H3>   
             requirements gathering is the process of identifying the needs of the user, and then translating them into a set of specifications. 
             There are many different ways of doing this, and it is important to do it correctly, as it is crucial to the success of the project. 
@@ -156,7 +169,7 @@
                 <li>The initial Requirements can change and "creep" as the product is developed, resulting in greater workload</li>
             </ul>
     </div>
-    <div id="Requirements gathering">
+    <div id="Requirements gathering" class="container text-muted">
         <h2 id="Reflections">Final Reflections</h2>
             <p>In reflection a key part of working within a development environment is the use of tool such as version control, development cycles, and requirements gathering.
                 Therefor I am glad i have taken the time to learn these skills, and i believe they will be useful in the future.
